@@ -5,7 +5,7 @@ import { Chart as ChartJS, registerables } from "chart.js";
 
 ChartJS.register(...registerables);
 
-const API = "http://localhost:8000";
+const API = "https://jarnox-project-ydk6.onrender.com";
 
 /* ─── Google Fonts injected at runtime ─── */
 const fontLink = document.createElement("link");
